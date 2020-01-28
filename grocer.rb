@@ -80,7 +80,10 @@ def apply_clearance(cart)
   #
   # REMEMBER: This method **should** update cart
   
-  
+  cart=[
+  {:item => "AVOCADO", :price => 3.00, :clearance => true, :count => 3},
+  {:item => "KALE",    :price => 3.00, :clearance => false, :count => 1}
+]
 end
 
 def checkout(cart, coupons)
